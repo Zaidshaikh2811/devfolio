@@ -1,0 +1,103 @@
+%PDF-1.3
+%µ¶
+
+1 0 obj
+<</Type/Catalog/Pages 2 0 R>>
+endobj
+
+2 0 obj
+<</Type/Pages/Count 1/Kids[3 0 R]>>
+endobj
+
+3 0 obj
+<</Type/Page/Contents 4 0 R/MediaBox[0 0 612 792]/Parent 2 0 R/Resources<</Font<</F1<</Type/Font/BaseFont/Helvetica/Subtype/Type1>>/F2<</Type/Font/BaseFont/Helvetica-Bold/Subtype/Type1>>>>>>
+endobj
+
+4 0 obj
+<</Length 676>>
+stream
+1 0 0 1 50 742 cm
+BT
+/F2 24 Tf
+(John Doe) Tj
+ET
+
+BT
+/F1 12 Tf
+0 -24 Td
+(Full Stack Web & App Developer) Tj
+ET
+
+BT
+/F1 10 Tf
+0 -16 Td
+(john.doe@example.com | San Francisco, CA | github.com/johndoe | linkedin.com/in/johndoe) Tj
+ET
+
+BT
+/F2 14 Tf
+0 -30 Td
+(Experience) Tj
+ET
+
+BT
+/F2 12 Tf
+0 -20 Td
+(Senior Full Stack Developer) Tj
+ET
+
+BT
+/F1 10 Tf
+0 -14 Td
+(Tech Innovations Inc. | 2022 - Present) Tj
+0 -14 Td
+(• Lead developer for multiple web and mobile applications) Tj
+0 -14 Td
+(• Architected scalable solutions and mentored junior developers) Tj
+ET
+
+BT
+/F2 14 Tf
+0 -30 Td
+(Skills) Tj
+ET
+
+BT
+/F1 10 Tf
+0 -14 Td
+(• Frontend: React, Next.js, React Native, TypeScript, Tailwind CSS) Tj
+0 -14 Td
+(• Backend: Node.js, Express, MongoDB, PostgreSQL, GraphQL) Tj
+0 -14 Td
+(• Tools: Git, Docker, AWS, Firebase) Tj
+ET
+
+BT
+/F2 14 Tf
+0 -30 Td
+(Education) Tj
+ET
+
+BT
+/F1 10 Tf
+0 -14 Td
+(Bachelor of Science in Computer Science) Tj
+0 -14 Td
+(University of Technology | 2015-2019) Tj
+ET
+endstream
+endobj
+
+xref
+0 5
+0000000000 65535 f 
+0000000016 00000 n 
+0000000062 00000 n 
+0000000114 00000 n 
+0000000305 00000 n 
+
+trailer
+<</Size 5/Root 1 0 R>>
+startxref
+1031
+%%EOF
