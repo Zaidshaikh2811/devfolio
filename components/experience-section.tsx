@@ -12,32 +12,18 @@ import {
 const experiences = [
   {
     id: 1,
-    title: "Senior Full Stack Developer",
-    company: "Tech Innovations Inc.",
-    period: "2022 - Present",
-    description: "Lead developer for multiple web and mobile applications. Architected scalable solutions and mentored junior developers. Technologies: React, Next.js, Node.js, MongoDB, AWS."
+    title: "Software Engineer ",
+    company: "SCIQUS INFOTECH PVT. LTD.",
+    period: "2025 - present",
+    description: "Working as a web Developer . Technologies: React, SCSS"
   },
   {
     id: 2,
-    title: "Full Stack Developer",
-    company: "Digital Solutions Co.",
-    period: "2020 - 2022",
-    description: "Developed and maintained e-commerce platforms and enterprise applications. Implemented CI/CD pipelines and improved application performance. Technologies: React, Node.js, PostgreSQL, Docker."
+    title: "Front End Developer",
+    company: "Maulana Azad Polytechnic",
+    period: "2022 - 2022",
+    description: "Developed a college management system  for college . Technologies: React, Node.js, AWS, Docker."
   },
-  {
-    id: 3,
-    title: "Frontend Developer",
-    company: "Creative Web Agency",
-    period: "2018 - 2020",
-    description: "Created responsive and interactive web applications for various clients. Worked closely with designers to implement pixel-perfect UIs. Technologies: React, JavaScript, HTML, CSS, Sass."
-  },
-  {
-    id: 4,
-    title: "Freelance Web Developer",
-    company: "Self-employed",
-    period: "2016 - 2018",
-    description: "Designed and built websites and web applications for small businesses and startups. Managed client relationships and project timelines. Technologies: JavaScript, PHP, MySQL, WordPress."
-  }
 ];
 
 export default function ExperienceSection() {
@@ -71,7 +57,7 @@ export default function ExperienceSection() {
   }, []);
 
   return (
-    <section id="experience" ref={sectionRef} className="py-16 md:py-24 opacity-0">
+    <section id="experience" ref={sectionRef} className="py-16 md:py-24">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -92,9 +78,9 @@ export default function ExperienceSection() {
               {experiences.map((experience, index) => (
                 <div
                   key={experience.id}
-                  className={`relative ${index % 2 === 0 ? "md:pl-10" : "md:pr-10 md:text-right"
-                    }`}
                   ref={(el) => (experienceRefs.current[index] = el)}
+                  className={`relative opacity-0 ${index % 2 === 0 ? "md:pl-10" : "md:pr-10 md:text-right"
+                    }`}
                   style={{ animationDelay: `${index * 200}ms` }}
                 >
                   {/* Timeline Dot */}
@@ -102,7 +88,7 @@ export default function ExperienceSection() {
 
                   {/* Experience Card */}
                   <Card
-                    className={`opacity-0 ${index % 2 === 0
+                    className={`${index % 2 === 0
                       ? "ml-auto md:mr-10 md:ml-0"
                       : "mr-auto md:ml-10 md:mr-0"
                       }`}

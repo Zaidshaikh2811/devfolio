@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import axios from "axios";
 import {
   Card,
   CardContent,
@@ -20,24 +21,38 @@ export default function ContactSection() {
   const formRef = useRef<HTMLFormElement>(null);
   const sectionRef = useRef<HTMLElement>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setIsSubmitted(true);
+    const formData = new FormData(formRef.current!);
+    const data = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      message: formData.get("message"),
+    };
 
-      if (formRef.current) {
-        formRef.current.reset();
+
+    try {
+
+      const response = await axios.post("/api/send-email", data);
+
+
+
+
+      if (response.data.success) {
+        setIsSubmitted(true);
+        formRef.current?.reset();
+        setTimeout(() => setIsSubmitted(false), 5000);
+      } else {
+        alert("Failed to send message.");
       }
-
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setIsSubmitted(false);
-      }, 5000);
-    }, 1500);
+    } catch (err) {
+      console.error(err);
+      alert("Something went wrong.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   useEffect(() => {
@@ -88,13 +103,13 @@ export default function ContactSection() {
                   href="mailto:john.doe@example.com"
                   className="text-muted-foreground hover:text-foreground"
                 >
-                  john.doe@example.com
+                  zaidshaikh2811@gmail.com
                 </a>
               </div>
               <div className="flex flex-col space-y-2">
                 <span className="font-medium">Location</span>
                 <span className="text-muted-foreground">
-                  San Francisco, California
+                  Mumbai , Maharashtra
                 </span>
               </div>
               <div className="flex flex-col space-y-2">

@@ -56,20 +56,13 @@ export default function AboutSection() {
           >
             <h3 className="text-2xl font-bold">Who I Am</h3>
             <p className="text-muted-foreground">
-              I&apos;m a Full Stack Web & App Developer with over 5 years of experience
-              creating modern, responsive, and user-friendly applications. I&apos;m
-              passionate about building solutions that solve real-world problems
-              and deliver exceptional user experiences.
+              Hi, I&apos;m Mohammad Zaid Shaikh, a passionate and versatile Frontend Developer with a strong foundation in React, Next.js, TypeScript, and modern web technologies. Currently pursuing my B.E. in Computer Science from Nagesh Karajagi Orchid College of Engineering and Technology, I thrive on crafting responsive, accessible, and user-centric applications.
             </p>
             <p className="text-muted-foreground">
-              My journey in tech began when I was 15, building simple websites
-              for fun. That hobby evolved into a career where I&apos;ve had the
-              privilege of working with startups and established companies alike,
-              helping them achieve their digital goals.
+              With hands-on experience from impactful projects like a mock interview platform, a social media app, and a trip planner, I’ve optimized performance, enhanced user experience, and implemented secure, scalable architectures. At Sciqus Infotech, I lead frontend development for real-time platforms focused on user engagement and collaboration.
             </p>
             <p className="text-muted-foreground">
-              When I&apos;m not coding, you can find me hiking in the mountains,
-              reading sci-fi novels, or experimenting with new technologies.
+              💡 I’ve also built data-driven admin dashboards and authentication systems used by thousands of students at Maulana Azad Polytechnic, making education management more efficient and secure.
             </p>
           </div>
 
@@ -97,18 +90,26 @@ export default function AboutSection() {
               <Badge variant="secondary">TypeScript</Badge>
               <Badge variant="secondary">React</Badge>
               <Badge variant="secondary">Next.js</Badge>
+              <Badge variant="secondary">React Native</Badge>
               <Badge variant="secondary">Node.js</Badge>
               <Badge variant="secondary">Express</Badge>
               <Badge variant="secondary">MongoDB</Badge>
               <Badge variant="secondary">PostgreSQL</Badge>
-              <Badge variant="secondary">React Native</Badge>
               <Badge variant="secondary">Tailwind CSS</Badge>
+              <Badge variant="secondary">Bootstrap</Badge>
+              <Badge variant="secondary">HTML</Badge>
+              <Badge variant="secondary">CSS</Badge>
+              <Badge variant="secondary">C</Badge>
+              <Badge variant="secondary">C++</Badge>
+              <Badge variant="secondary">Java</Badge>
+              <Badge variant="secondary">Python</Badge>
               <Badge variant="secondary">Redux</Badge>
               <Badge variant="secondary">GraphQL</Badge>
-              <Badge variant="secondary">AWS</Badge>
-              <Badge variant="secondary">Docker</Badge>
               <Badge variant="secondary">Git</Badge>
+              <Badge variant="secondary">Docker</Badge>
               <Badge variant="secondary">CI/CD</Badge>
+              <Badge variant="secondary">AWS</Badge>
+
             </div>
           </div>
 
@@ -119,13 +120,13 @@ export default function AboutSection() {
           >
             <Card>
               <CardContent className="p-6">
-                <div className="text-4xl font-bold">5+</div>
+                <div className="text-4xl font-bold">1+</div>
                 <p className="text-sm text-muted-foreground">Years Experience</p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
-                <div className="text-4xl font-bold">50+</div>
+                <div className="text-4xl font-bold">10+</div>
                 <p className="text-sm text-muted-foreground">Projects Completed</p>
               </CardContent>
             </Card>
