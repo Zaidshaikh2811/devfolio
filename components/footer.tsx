@@ -11,7 +11,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-4">
             <Link
-              href="https://github.com"
+              href="https://github.com/Zaidshaikh2811"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -20,7 +20,7 @@ export default function Footer() {
               <span className="sr-only">GitHub</span>
             </Link>
             <Link
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/mohammad-zaid-shaikh-18a307239/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -29,7 +29,7 @@ export default function Footer() {
               <span className="sr-only">LinkedIn</span>
             </Link>
             <Link
-              href="https://twitter.com"
+              href="https://x.com/zaidshaikh2811"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -38,7 +38,7 @@ export default function Footer() {
               <span className="sr-only">Twitter</span>
             </Link>
             <Link
-              href="mailto:john.doe@example.com"
+              href="mailto:zaidshaikh2811@gmail.com"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               <Mail className="h-5 w-5" />
