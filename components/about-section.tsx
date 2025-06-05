@@ -35,6 +35,8 @@ export default function AboutSection() {
     return () => observer.disconnect();
   }, []);
 
+
+
   return (
     <section id="about" ref={sectionRef} className="py-16 md:py-24 opacity-0 ">
       <div className="container px-4 md:px-6 mx-auto">

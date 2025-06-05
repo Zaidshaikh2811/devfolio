@@ -16,6 +16,15 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    id: 7,
+    title: "AI-Powered Applications",
+    description: "The AI Job Application Assistant is a web-based tool designed to streamline the job application process. It offers features such as automated resume tailoring, personalized cover letter generation, and AI-driven job matching, aiming to reduce the time and effort involved in applying for jobs",
+    image: "/publicTransport.png",
+    tags: ["Next.js", "Neon Database", "Drizzle ORM", "Typescript", "Tailwind CSS"],
+    demoUrl: "https://ai-job-application-assistant.vercel.app",
+    githubUrl: "https://github.com/Zaidshaikh2811/AI-Job-Application-Assistant",
+    longDescription: "The AI Job Application Assistant addresses the common issue of generic or ineffective job applications in the hiring process. It provides a simple, user-friendly platform for job seekers to generate tailored resumes and personalized cover letters using AI-powered tools, helping candidates apply more effectively. By allowing real-time customization and intelligent job matching, the app increases relevance and ensures applications are targeted and impactful, improving the chances of getting shortlisted and enhancing overall job search efficiency.",
+  },  {
     id: 1,
     title: "Public Transport Complaint Portal",
     description: "A full-stack web app for users to report and track public transport complaints with real-time status updates and media support.",
