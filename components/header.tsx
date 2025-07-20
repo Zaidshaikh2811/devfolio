@@ -67,7 +67,7 @@ export default function Header() {
           </nav>
           <div className="flex items-center gap-2">
             <a
-              href="/resume.pdf"
+              href="/Zaid_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:inline-flex"
@@ -112,7 +112,7 @@ export default function Header() {
               </Link>
             ))}
             <a
-              href="/resume.pdf"
+              href="/Zaid_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4"
