@@ -8,8 +8,8 @@ import Footer from '@/components/footer';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'Mohammad Zaid Shaikh | Full Stack Web & App Developer',
-  description: 'Portfolio of Mohammad Zaid Shaikh , a Full Stack Web & App Developer specializing in MERN stack, Next.js, React Native, and more.',
+  title: ' Zaid Shaikh | Full Stack Web & App Developer',
+  description: 'Portfolio of  Zaid Shaikh , a Full Stack Web & App Developer specializing in MERN stack, Next.js, React Native, and more.',
 };
 
 export default function RootLayout({
