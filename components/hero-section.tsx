@@ -64,7 +64,7 @@ export default function HeroSection() {
           </div>
 
           <h1 className="mb-4 animate-fade-in-up text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
-            Mohammad Zaid Shaikh
+              Zaid Shaikh
           </h1>
 
           <div className="mb-8 h-10 text-xl font-medium text-muted-foreground sm:text-2xl md:text-3xl mx-auto">
